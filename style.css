@@ -1,0 +1,130 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: rgba(0, 0, 0, 0.925);
+    background-image: url("../img/anima-blue.gif");
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color:rgb(72, 255, 0);
+}
+
+p {
+    padding: 0.50rem;
+}
+
+img {
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #secondary-navigation {
+
+} */
+
+.layout {
+    display: inline-flex;
+}
+
+#primary-navigation {
+    position: sticky;
+    padding: 2em;
+    margin: 1.5em;
+    display: inline-block;
+    background-color: rgba(115, 128, 0, 0.479);
+    height: 20%;
+}
+
+main {
+    position: relative;
+    background-color: rgba(128, 0, 128, 0.478);
+    padding: 1rem;
+    width: 80vw;
+    display: inline-block;
+}
+
+.introduction {
+    padding-bottom: 20px;
+}
+
+.color {
+    color: aquamarine;
+}
+
+a {
+    color: white;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(71, 165, 42);
+}
+
+main li {
+    list-style-position: inside;
+}
+
+.scrolltop a {
+    color:rgb(255, 0, 157);
+}
+
+#quote p {
+    text-align: justify;
+}
+
+#quote img {
+    float: right;
+    margin: 5px;
+}
+
+.wrap {
+    float: right;
+}
+
+#basics {
+    text-align: justify;
+}
+
+/* #album-table {
+
+} */
+
+.visible {
+    color:yellow;
+}
+
+ul.star {
+    list-style-image: url("../img/star-tiny.gif");
+}
+
+.green {
+    color: rgb(72, 255, 0);
+}
+
+figcaption {
+    text-align: center;
+}
+
+.socials, .buttons {
+    display: flex;
+    justify-content: center; /* can't close the gap between buttons */
+}
